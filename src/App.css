@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+}
+
+body {
+  /* background-image: url("https://images.unsplash.com/photo-1485841890310-6a055c88698a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"); */
+  margin: 0;
+  background-image: url("./Image/scott-webb-GQD3Av_9A88-unsplash.jpg");
+  background-size: cover;
+  background-position: center, center;
+  min-height: 60vh;
+}
+.clock {
+  text-align: center;
+  margin-top: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 3rem;
+}
+.Main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.Hours,
+.Minutes,
+.Seconds {
+  /* background-color: black; */
+  /* border: 3px solid black; */
+  width: 10rem;
+  /* height: fit-content; */
+  /* border: 10px solid pink; */
+  font-size: 2rem;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  align-items: center;
+  /* justify-content: center; */
+  /* padding-left: 40px; */
+  /* padding-top: 30px; */
+  /* text-align: center;   */
+}
